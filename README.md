@@ -16,6 +16,8 @@ Requirements for Client PC's
 2.) Google Chrome
 3.) Chrome Driver (check which version you need by entering chrome://version in Chrome browser.)
 
+===========================================================================
+
 Requirements for Web Server
 
 1.) Python 3.7.0 or newer
