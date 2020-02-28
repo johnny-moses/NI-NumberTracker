@@ -4,6 +4,7 @@ Application for Noram International to track worker productivity.
 Requirements for Client PC's
 
 1.) Python 3.7.0 or newer
+  
   Libraries used:
     - Selenium
     - PyMongo
