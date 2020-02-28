@@ -25,6 +25,8 @@ Requirements for Web Server
  - nginix
  - Flask
  - Git
+ 
+ 
  2.) MongoDB
  
 
