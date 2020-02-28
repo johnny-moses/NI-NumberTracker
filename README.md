@@ -2,7 +2,7 @@
 Application for Noram International to track worker productivity.
 NI NumberTracker uses Selenium to take control of the Google Chrome web browser so it may easily grab needed information on worker productivity. The application will automatically open the needed web pages and log in according to the station its at. Since the company uses different accounts for each individual PC, the logins are hard coded for each one. The application will update a database every 45 seconds with productivity numbers as an employee works. These numbers can be seen from a seperate web server working in tandem with the database to display numbers station by station. The web server will only allow certain IP addresses to access it, ensuring only manager or supervisor work stations can view the information.
 
-=================================================================================================================================
+===========================================================================
 
 Requirements for Client PC's
 
