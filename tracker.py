@@ -5,8 +5,6 @@ from pymongo import MongoClient
 from pymongo.errors import ServerSelectionTimeoutError
 import schedule
 
-# m_date = datetime.now().time()
-
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("excludeSwitches", ['enable-automation'])
 b = webdriver.Chrome('PATH/to/ChromeDriver', options=chrome_options)
@@ -19,6 +17,9 @@ def space():
     print(' ')
 
 
+    
+    # Login function for signing in through employee portal 
+    
 def login():  # CHANGE HERE PER STATION
     space()
     print('*============*')
@@ -37,7 +38,10 @@ def login():  # CHANGE HERE PER STATION
     print('*==================*')
     space()
 
+    
 
+    # Function to check for signin page. Service will log employees out every hour or so, this function keeps them logged in.
+    
 def logincheck():
     b.refresh()
     url = b.current_url
@@ -58,6 +62,9 @@ def logincheck():
         return
 
 
+    
+    # Function to grab productivity numbers and upload them to database server.
+    
 def nums():
     x = b.current_url
     logincheck()
